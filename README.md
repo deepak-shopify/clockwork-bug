@@ -1,2 +1,3 @@
 - Install the required dependencies: `bundle install`
+- Set your local timezone to +0530 (India)
 - Run the jobs using `bundle exec clockwork clock.rb`
