@@ -9,7 +9,7 @@ module Clockwork
       t.utc.hour % 12 == 0
     }
   ) do
-    puts "This job runs every minute. Current time: #{Time.now}"
+    puts "This job runs every 5 seconds. Current time: #{Time.now}"
   end
 
   every(
@@ -20,6 +20,6 @@ module Clockwork
       t.utc.hour % 12 == 0
     }
   ) do
-    puts "This job runs every minute. Current time: #{Time.now}"
+    puts "This job runs 5 seconds minute. Current time: #{Time.now}"
   end
 end

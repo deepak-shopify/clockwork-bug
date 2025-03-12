@@ -1,0 +1,2 @@
+- Install the required dependencies: `bundle install`
+- Run the jobs using `bundle exec clockwork clock.rb`
